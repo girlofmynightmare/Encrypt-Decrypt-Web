@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECAY // OS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="crt-overlay"></div>
+    <canvas id="matrix"></canvas>
+
+    <div class="terminal-frame">
+        <div class="radar"><div class="radar-sweep"></div></div>
+
+        <header>
+            <div class="brand">DECAY//OS</div>
+            <div class="status-box">NODE: QUANTUM-ALPHA // ONLINE</div>
+        </header>
+
+        <section class="core-interface">
+            <h2 class="label">>> 22_INPUT_BUFFER</h2>
+            <textarea id="input" placeholder="ENTER STRING FOR PROCESSING..."></textarea>
+            
+            <div class="input-wrap">
+                <span class="prefix">PASSKEY</span>
+                <input type="password" id="passkey" placeholder="****">
+            </div>
+
+            <div class="btn-grid">
+                <button onclick="cipher('lock')">EXECUTE_LOCK</button>
+                <button onclick="cipher('unlock')">EXECUTE_UNLOCK</button>
+            </div>
+        </section>
+
+        <div id="output-container">
+            <h2 class="label">>> 88_STDOUT_FEED</h2>
+            <textarea id="output" readonly></textarea>
+            <button class="sync-btn" onclick="copyToClipboard()">SYNC_TO_CLIPBOARD</button>
+        </div>
+
+        <div class="log-area" id="log">
+            [BOOT] SYSTEM READY...<br>
+            [KERN] ENCRYPTION_V4_ACTIVE...
+        </div>
+
+<footer class="terminal-credits">
+    DESIGNED BY 
+    <a href="https://github.com/girlofmynightmare" target="_blank" class="glitch-link" data-text="USER_CORE">
+        APE
+    </a> 
+    // VER_6.0.2
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
