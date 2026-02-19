@@ -1,4 +1,4 @@
-# DECAY // OS  
+# DECAY // OS  V2
 ## Client-Side Encrypt / Decrypt Web Tool
 
 ![Client-Side Encryption](https://img.shields.io/badge/security-client--side%20encryption-00ff41?style=flat)
@@ -76,3 +76,4 @@ This project is designed for learning, demonstration, and basic privacy use case
 - No analytics
 - No hidden data exfiltration
 - Fully inspectable client-side code
+
