@@ -11,6 +11,8 @@ No accounts. No backend. No data leaves your device.
 ## Live Demo
 
 🔗 https://decay.vercel.app/
+
+
 ![DECAY // OS Demo](assets/demo.gif)
 
 ---
@@ -78,6 +80,7 @@ This project is designed for learning, demonstration, and basic privacy use case
 - No analytics
 - No hidden data exfiltration
 - Fully inspectable client-side code
+
 
 
 
